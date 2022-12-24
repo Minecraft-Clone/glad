@@ -11,7 +11,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
-add_library(glad src/glad.c)
+add_library(glad STATIC src/glad.c)
 add_library(${PROJECT_NAME}::glad ALIAS glad)
 
 target_include_directories(glad PUBLIC ${PROJECT_SOURCE_DIR}/include)
