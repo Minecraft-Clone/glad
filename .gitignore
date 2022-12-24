@@ -1,0 +1,8 @@
+build/
+*.a
+*.so
+*.la
+*.dll
+*.lai
+*.lib
+*.dylib
