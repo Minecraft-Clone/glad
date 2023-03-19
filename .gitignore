@@ -6,3 +6,6 @@ build/
 *.lai
 *.lib
 *.dylib
+*.sln
+*.vcxproj
+*.vcxproj.*
