@@ -10,6 +10,8 @@ project "glad"
   targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
   objdir ("%{wks.location}/build/" .. outputdir .. "%{prj.name}")
 
+  IncludeDir["glad"] = "%{wks.location}/libs/glad/include"
+
   includedirs {
     "%{IncludeDir.glad}"
   }
