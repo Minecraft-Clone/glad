@@ -17,6 +17,7 @@ project "glad"
   }
 
   files {
+    "premake5.lua",
     "include/glad/glad.h",
     "include/KHR/khrplatform.h",
     "src/glad.c",
