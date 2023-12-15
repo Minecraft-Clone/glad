@@ -18,9 +18,9 @@ project "glad"
 
   files {
     "premake5.lua",
-    "include/glad/glad.h",
+    "include/glad/gl.h",
     "include/KHR/khrplatform.h",
-    "src/glad.c",
+    "src/gl.c",
   }
 
   filter "system:linux"
